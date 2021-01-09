@@ -51,7 +51,7 @@
    
   
 ## Examples  
- The following code example demonstrates the how to implement the <xref:System.ComponentModel.INotifyPropertyChanged> interface. When you run this example, you will notice the bound <xref:System.Windows.Forms.DataGridView> control reflects the change in the data source without requiring the binding to be reset.  
+ The following code example demonstrates how to implement the <xref:System.ComponentModel.INotifyPropertyChanged> interface. When you run this example, you will notice the bound <xref:System.Windows.Forms.DataGridView> control reflects the change in the data source without requiring the binding to be reset.  
   
  If you use the `CallerMemberName` attribute, calls to the `NotifyPropertyChanged` method don't have to specify the property name as a string argument. For more information, see [Caller Information](https://docs.microsoft.com/previous-versions/hh534540(v=vs.140)).  
   
